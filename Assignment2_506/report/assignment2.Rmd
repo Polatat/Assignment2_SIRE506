@@ -112,7 +112,7 @@ Let's explain each variable, which have two groups that comprise categorical(pca
 
 > These two variables do not measure in number(percentage) like categorical variables because they are continuous values, so we measure median and standard deviation instead.
 
-1.  **Age** In non-survival passengers have a mean(SD) of 31(14), whereas survival passengers are 28(15). These values show that they are not vital factors for survival because the mean(SD) from both of them are very similar. It can be seen that the age mean of survival people are younger than casualties although they are very identical. In addition, we do not have deceased passengers aged higher than survivors aged by 73.
+1.  **Age** In non-survival passengers have a mean(SD) of 31(14), whereas survival passengers are 28(15). These values show that they are not vital factors for survival because the mean(SD) from both of them are very similar. It can be seen that the age mean of survival people are younger than casualties although they are very identical. In addition, we do not have deceased passengers aged data higher than survivors aged data by 73.
 
 2.  **Fare** This variable is associated with pclass because the more the passengers paid for fare, the higher class they got. In the non-survival group, it has a mean(SD) at 22(31), while survival is 48(67); so it is strongly different in mean and sd. The higher the SD, the more variety of data range. Hence, people who were in the surviving group paid for the first class or second class more than the others. In the non-survival group, on the other hand, most of the people spent in the same range which most of them were at the third class.
 
