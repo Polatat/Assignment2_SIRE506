@@ -94,7 +94,7 @@ I do not use ticket ,cabin and embarked information because most of them are not
 
 ## The Interpretation Of Table1
 
-According to the table1, two main headers are composed of survival and non-survival passengers. The survival passengers represent 0 total of 549, while the non-survival passengers are 1 a total of 342 They correlate with the others variables to predict the survival chance, including pclass, sex, age, sibsp, parch, and fare.
+According to the table1, two main headers are composed of survival and non-survival passengers. The non-survival passengers represent 0 total of 549, while the survival passengers are 1 at total of 342 They correlate with the others variables to predict the survival chance, including pclass, sex, age, sibsp, parch, and fare.
 
 Let's explain each variable, which have two groups that comprise categorical(pcalss,sibsp,parch,and sex) and continuous(age and fare) variaables.
 
