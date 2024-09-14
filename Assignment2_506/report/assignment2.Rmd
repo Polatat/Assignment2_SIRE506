@@ -28,17 +28,17 @@ titanic_data <- read.csv("/Users/kong/Desktop/Assignment2_506/data/titanic/train
 
 # Checking for outliers using exploratory graph for each variables group which is creating a box plot.
 
-Before plotting the graph, I know that there are five important variables, including: Pclass, Sex, Age, SibSp, Parch and Fare. Besides, it can be divided into two types of data.
+Before plotting the graph, I know that there are six variables, including: Pclass, Sex, Age, SibSp, Parch and Fare. It can be divided into two types of data. 
 
 1\. Continuous Variables(Quantitative) : Age and Fare
 
-2\. Categorical Variables(Qualitative): SibSp,Parch and Pclass
+2\. Categorical Variables(Qualitative): SibSp,Parch,Pclass and Sex
 
 Note:Sibsp = siblings/spouses aboard the Titanic Parch = parents/ children aboard the Titanic Fare = passenger fare(the revenue earned from carrying a passenger) Pclass = ticket class.
 
 Box plots in fare, age, Parch and SibSp vs survival and non-survival variables.
 
-I do not plot Pclass because the class consists of 1,2,3 ticket class, so there is no outlier.
+I do not plot Pclass and Sex because there are outliers in two of them
 
 ```{r}
 # Set the CRAN mirror
