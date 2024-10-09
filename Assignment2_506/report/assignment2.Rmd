@@ -23,7 +23,7 @@ View(titanic_data)
 library(tidyverse)
 
 # Load the Titanic dataset from a local CSV file
-titanic_data <- read.csv("./data/titanic/train.csv")
+titanic_data <- read.csv("../data/titanic/train.csv")
 ```
 
 # Checking for outliers using exploratory graph for each variables group which is creating a box plot.
