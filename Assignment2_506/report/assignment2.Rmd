@@ -7,12 +7,12 @@ output: "word_document"
 
 # Install gtsummary for summary
 
-install.package("gtsummary")
+install.packages("gtsummary")
 
 # Start analyse the survival factors in first table.
 
 ## Define titanic_data as train.csv for summary identify the abnomral values
-install.package("tidyverse") # I install this package because it can help to convert the data into much better presentation.
+install.packages("tidyverse") # I install this package because it can help to convert the data into much better presentation.
 library(tidyverse)
 titanic_data \<- read.csv("data/titanic/train.csv")
 
